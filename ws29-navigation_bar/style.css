@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none; /* Remove os ponteiros pretos da lista */
+    background-color: hsl(0, 0%, 35%);
+    padding:0px;
+    margin: 0px;    
+}
+
+.navbar ul li{
+    display:inline-block;
+    
+}
+
+.navbar ul li a{
+    display: inline-block;
+    margin-right: -5px;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px
+}
+
+.navbar ul li a:hover{
+    background-color: hsl(0,0%,50%);
+}
